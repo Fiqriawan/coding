@@ -1,0 +1,46 @@
+right()
+forward(8)
+repeat()
+{if(frontiswhite()){
+    forward(1)}
+else if(rightiswhite()){
+    right()}
+else if(leftiswhite()){
+    left()}
+else if(frontisobstacle()){
+    backward(2)
+right()
+forward(10)
+left()
+forward(1)
+pickup()
+backward(1)
+left()
+forward(1)
+repeat(){
+if(frontiswhite()){
+    forward(1)}
+else if(rightiswhite()){
+    right()}
+else if(frontisobstacle()){
+    left()
+    forward(7)
+    putdown()
+    left()
+    forward(9)
+    left()
+    forward(3)
+    paintwhite()
+    forward(2)
+    left()
+    forward(2)
+    left()
+    forward(2)
+    left()
+    forward(4)
+    left()
+    forward(2)
+    left()
+    forward(2)
+    end
+}}}}
